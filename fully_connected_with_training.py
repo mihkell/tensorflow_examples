@@ -1,5 +1,6 @@
 import tensorflow as tf
 
+
 def fully_connected_layers():
     inputs = tf.placeholder(tf.float32, shape=(None, 2))
     labels = tf.placeholder(tf.float32, shape=(None, 1))
