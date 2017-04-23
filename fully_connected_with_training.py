@@ -2,6 +2,10 @@ import tensorflow as tf
 
 
 def fully_connected_layers():
+    """
+    Training example with one fully_connected layer.
+    Loss calculated as mean squared erros and minimized with gradient descent.
+    """
     inputs = tf.placeholder(tf.float32, shape=(None, 2))
     labels = tf.placeholder(tf.float32, shape=(None, 1))
 
